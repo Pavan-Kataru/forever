@@ -11,7 +11,7 @@ const LatestCollection = () => {
 
     useEffect(()=>{
         setLatestProducts(products.slice(0,10)); // to get only 10 latest added products
-    },[])
+    },[products])
     
   return (
     <div className='my-10'>
